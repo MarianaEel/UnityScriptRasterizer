@@ -1,0 +1,11 @@
+Logs/
+Library/
+MemoryCaptures/
+obj/
+Packages/
+ProjectSettings/
+UserSettings/
+.vs/
+.vscode/
+.vsconfig
+*.meta
