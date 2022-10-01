@@ -5,6 +5,33 @@ It is based on the knowledge and framework of Games101 by Prof. Lingqi Yan.
 
 Here I reconstruct the c++ code into unity engine to get away from problems inputing models and setup scenes.
 
+## Table of Contents
+- [SoftRasterizer](#softrasterizer)
+  - [Table of Contents](#table-of-contents)
+  - [How to use](#how-to-use)
+  - [Framework](#framework)
+    - [**Camera Renderer**](#camera-renderer)
+    - [**Rasterizer**](#rasterizer)
+  - [Pipeline](#pipeline)
+    - [Draw](#draw)
+    - [Rasterizer](#rasterizer-1)
+  - [Current Progress](#current-progress)
+  - [File Structures](#file-structures)
+    - [CameraRenderer.cs](#camerarenderercs)
+    - [FragmentShader.cs](#fragmentshadercs)
+    - [ProfileManager.cs](#profilemanagercs)
+    - [Rasterizer.cs](#rasterizercs)
+    - [RenderingObject.cs](#renderingobjectcs)
+    - [Shadow.cs](#shadowcs)
+    - [ShowFPS.cs](#showfpscs)
+    - [Triangle.cs](#trianglecs)
+    - [Utility.cs](#utilitycs)
+    - [VertexShader.cs](#vertexshadercs)
+  - [Reference](#reference)
+
+## How to use
+Download [SoftRasterizer.unitypackage](./UnityPackage/SoftRasterizer.unitypackage) in ./`UnityPackage/SoftRasterizer.unitypackage` and import it to your project. The test scene will automatically imported with the script.
+
 ## Framework
 The `SoftRasterizer` is design to render scene to screen avoid using Graphic API. 
 
